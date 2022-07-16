@@ -1,505 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>DLW</title>
+<html lang="en-us">
+<head>
+  <title>Analogue Reverie | Projects | Dream Logical World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<script src="nav.js"></script>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<table class="title">
+<tr>
+<td>
+<h1><span class="jpheading">東方実在相</span> <span class="headingtilde">~</span> Dream Logical World</h1>
+<small>(<i>Touhou Jitsuzaisou ~ Dream Logical World</i>, lit. "Eastern Aspects of Existence")</small>
+</td>
+</tr>
+</table>
 
-		
-		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1654738200" title="wsite-theme-css" />
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<div class="grid-container gridtwo" style="margin:auto auto 12px;">
+  <div class="grid-item"><img src="img/dlw_jewelcase.png" alt="Dream Logical World jewel case" class="halfleft" style="width:394px"></div>
+  <div class="grid-item">
+   <table class="info halfright">
+   <tr>
+   <td>
+   <p><b>Genre:</b> Shoot-'em-up (Bullet Hell)<br>
+   <b>Engine:</b> Touhou Danmakufu ph3.5<br>
+   <b>Project lead:</b> VYCM<br></p>
+   <p><b>Release history:</b>
+   <ul>
+    <li>Trial 0.01a: 14 July 2019</li>
+    <li>Trial 0.01b: 11 August 2019</li>
+    <li>Trial 0.10a: 26 August 2021</li>
+    <li>Version 1.00a: 20 January 2022</li>
+    <li>Version 1.00b: 9 February 2022</li>
+    <li>Version 1.01a: 22 April 2022</li>
+   </ul></p>
+   </td>
+   </tr>
+   </table>
+  </div>
+</div> 
 
-<link href='http://fonts.googleapis.com/css?family=Architects+Daughter&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Architects+Daughter&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<style type='text/css'>
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Architects Daughter" !important;font-style:normal !important;letter-spacing: 1px !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#0e4361 !important;}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Architects Daughter" !important;letter-spacing: 5px !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {color:#1b597c !important;}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {font-family:"Reenie Beanie" !important;font-weight: bold !important;}
-.wsite-menu a {font-family:"Reenie Beanie" !important;}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Reenie Beanie" !important;text-transform:  none !important;letter-spacing: 5px !important;}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Playfair Display" !important;font-weight:400 !important;letter-spacing: 0px !important;}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:19px !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:14px !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {font-size:21px !important;}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {font-size:100px !important;line-height:74px !important;}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:22px !important;line-height:34px !important;}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-}</style>
+<div class="grid-container gridfive">
 
-		<script>
-var STATIC_BASE = '//cdn1.editmysite.com/';
-var ASSETS_BASE = '//cdn2.editmysite.com/';
-var STYLE_PREFIX = 'wsite';
-</script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
-<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
-		function initCustomerAccountsModels() {
-					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
-_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
-})();
-		}
-		if(document.createEvent && document.addEventListener) {
-			var initEvt = document.createEvent('Event');
-			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
-			document.dispatchEvent(initEvt);
-		} else if(document.documentElement.initCustomerAccountsModels === 0){
-			document.documentElement.initCustomerAccountsModels++
-		}
-		</script>
-		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
-			_W.customerLocale = "en_US";
-			_W.storeName = null;
-			_W.isCheckoutReskin = false;
-			_W.storeCountry = "US";
-			_W.storeCurrency = "USD";
-			_W.storeEuPrivacyPolicyUrl = "";
-			com_currentSite = "184181696246035762";
-			com_userID = "119447933";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
-	var IS_ARCHIVE = 1;
-	
-	function initFlyouts(){
-		initPublishedFlyoutMenus(
-			[{"id":"426086549445355888","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"287887744426550490","title":"Team Members","url":"team-members.html","target":"","nav_menu":false,"nonclickable":false},{"id":"123352630339028948","title":"Projects","url":"projects.html","target":"","nav_menu":false,"nonclickable":false},{"id":"984358078248238006","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],
-			"586207872346813947",
-			'',
-			'active',
-			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-			{}
-		)
-	}
-//-->
-</script>
-		
-		
-	</head>
-	<body class="header-page  wsite-page-dlw  full-width-body-off header-overlay-off alt-nav-on  wsite-theme-light"><div class="wrapper">
-    <div class="birdseye-header">
-      <div class="nav-wrap">
-        <div class="container">
-          <div class="logo"><span class="wsite-logo">
-
-	
-	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
-	<span style="display:none">Analogue Reverie</span>
-	</span>
-	
-
-</span></div>
-          <div class="nav desktop-nav"><ul class="wsite-menu-default">
-		<li id="pg426086549445355888" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="pg287887744426550490" class="wsite-menu-item-wrap">
-			<a
-						href="team-members.html"
-				class="wsite-menu-item"
-				>
-				Team Members
-			</a>
-			
-		</li>
-		<li id="pg123352630339028948" class="wsite-menu-item-wrap">
-			<a
-						href="projects.html"
-				class="wsite-menu-item"
-				>
-				Projects
-			</a>
-			
-		</li>
-		<li id="pg984358078248238006" class="wsite-menu-item-wrap">
-			<a
-						href="contact.html"
-				class="wsite-menu-item"
-				>
-				Contact
-			</a>
-			
-		</li>
-</ul>
-</div>
-          <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="banner-wrap">
-      <div class="wsite-elements wsite-not-footer wsite-header-elements">
-	<div class="wsite-section-wrap">
-	<div  class="wsite-section wsite-header-section wsite-section-bg-image wsite-section-effect-reveal" style="height: auto;vertical-align: middle;background-image: url(&quot;./uploads/1/1/9/4/119447933/background-images/748223904.png&quot;) ;background-repeat: no-repeat ;background-position: 50.00% 78.10% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
-		<div class="wsite-section-content">
-			
-          <div class="container">
-            <div class="banner">
-				<div class="wsite-section-elements">
-					
-				</div>
-			</div>
-          </div>
-      
-		</div>
-		<div class=""></div>
-	</div>
-</div>
-
-</div>
-
-    </div>
-
-    <div class="main-wrap">
-      <div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-section-bg-image wsite-section-effect-reveal wsite-background-17" style="height: 817px;background-image: url(&quot;./uploads/1/1/9/4/119447933/background-images/107650360.png&quot;) ;background-repeat: no-repeat ;background-position: NaN% NaN% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
-		<div class="wsite-section-content">
-          <div class="container">
-			<div class="wsite-section-elements">
-				<div id="776136269276296365"><div><style type="text/css">
-	#element-bf0a5bb5-37bd-473e-94a5-32e81a4f6629 .colored-box-content {
-  clear: both;
-  float: left;
-  width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: rgba(244,247,248,0.8);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  -moz-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-</style><div id="element-bf0a5bb5-37bd-473e-94a5-32e81a4f6629" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
-	<div class="colored-box">
-    <div class="colored-box-content">
-        <div style="width: auto"><div></div><div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:35.945945945946%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:left">
-<a>
-<img src="uploads/1/1/9/4/119447933/jewelcase_orig.png" alt="Picture" style="width:auto;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-<blockquote>One day, the denizens of Gensokyo realize their reality is different. Trees have diamonds on them. Dirt paths are now made of fancy glass. The distances between landmarks have changed. The Hakurei Shrine, instead of being desolate, is now regularly visited by worshipers. And perhaps most disturbing of all, even people's personalities seem to have changed. What's more, it seems that existence has been this way for quite a while and no one noticed it. Everyone's minds simply accepted that this was now reality&mdash;as if they were dreaming and their minds convinced them that what was happening in the dream was real, which leads Gensokyo's residents to call the phenomenon "dream logic". Only remembering the past and finding points of contradiction where things don't make sense allows them to determine what reality "should" look like. In this urgent situation, a large cast of playable characters and quite a few unlikely partnerships assemble to uncover the truth...<br /><br /><strong>-VYCM HD 58061</strong><br /></blockquote>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:64.054054054054%; padding:0 15px;">
-					
-						
-
-<div class="paragraph"><font size="6">&#26481;&#26041;&#23455;&#22312;&#30456; &#65374; Dream Logical World</font><br /><br /><em><strong>Touhou Jitsuzaisou (Aspects of Existence) ~ Dream Logical World</strong></em><span style="font-weight:normal"> (<span>&#26481;&#26041;&#23455;&#22312;&#30456; &#65374; Dream Logical World</span>)</span> is a fan-made <em>Touhou Project</em> game made using the <em>Touhou Danmakufu</em> ph3.5 shooting game engine. This game is the first released project by Analogue Reverie, as well as the first fangame to use the ph3.5 engine.<br /><br />Select your team and utilize special spellcards known as Aspect shifts to turn the tides of battle!<br /><br /><font size="4">Release date: 20 January 2022<br />Latest version: v1.01a</font><br /><br /></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:34.129213483146%; padding:0 15px;">
-					
-						
-
-<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-large wsite-button-highlight" href="https://store.steampowered.com/app/1664410/__Dream_Logical_World/" target="_blank">
-<span class="wsite-button-inner">Steam Download</span>
-</a>
-<div style="height: 10px; overflow: hidden;"></div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:65.870786516854%; padding:0 15px;">
-					
-						
-
-<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-large wsite-button-highlight" href="https://www.bulletforge.org/u/vycm/p/dong-fang-shi-zai-xiang-dream-logical-world" target="_blank">
-<span class="wsite-button-inner">BulletForge Download</span>
-</a>
-<div style="height: 10px; overflow: hidden;"></div></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div id="238252220243891021" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><iframe src="https://itch.io/embed/1135786" width="552" height="167" frameborder="0"><a href="https://analogue-reverie.itch.io/dream-logical-world">東方実在相 ～ Dream Logical World by Analogue Reverie</a></iframe>
-</div>
-
-
-
-</div>
-
-<div class="wsite-youtube" style="margin-bottom:10px;margin-top:10px;"><div class="wsite-youtube-wrapper wsite-youtube-size-auto wsite-youtube-align-center">
-<div class="wsite-youtube-container">
-
-<iframe src="http://www.youtube.com/embed/E3mdn-i50OY?wmode=opaque" frameborder="0" allowfullscreen></iframe>
-</div>
-</div></div>
-
-<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-large wsite-button-highlight" href="projects.html" >
-<span class="wsite-button-inner">Return to Projects Page</span>
-</a>
-<div style="height: 10px; overflow: hidden;"></div></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div></div>
-    </div>
-</div>
-</div>
-<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement776136269276296365() {
-	var requireFunc = window.platformElementRequire || window.require;
-
-	// Relies on a global require, specific to platform elements
-	requireFunc([
-		'w-global',
-		'underscore',
-		'jquery',
-		'backbone',
-		'util/platform/elements/PlatformElement',
-		'util/platform/elements/PlatformElementSettings'
-	], function(
-		_W,
-		_,
-		$,
-		Backbone,
-		PlatformElement,
-		PlatformElementSettings
-	) {
-		var dependencies = null || [];
-		var platform_element_id = "848857247979793891-1.0.1";
-
-		if (typeof _W.loadedPlatformDependencies === 'undefined') {
-			_W.loadedPlatformDependencies = [];
-		}
-
-		if (typeof _W.platformElements === 'undefined') {
-			_W.platformElements = [];
-		}
-
-		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
-			_W.platformElements[platform_element_id] = {};
-			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
-			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
-		}
-
-		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
-			_.reduce(dependencies, function(promise, nextScript){
-				_W.loadedPlatformDependencies.push(nextScript);
-				return promise.then(function(){
-					return $.getScript(nextScript);
-				});
-			}, $().promise()).then(function(){
-				_W.platformElements[platform_element_id].deferredObject.resolve();
-			});
-		}
-
-		if (dependencies.length === 0){
-			_W.platformElements[platform_element_id].deferredObject.resolve();
-		}
-
-		_W.platformElements[platform_element_id].deferredPromise.done(function(){
-			var _ElementDefinition = /**
- * This is required for element rendering to be possible
- * @type {PlatformElement}
- */
-(function() {
-    var ColoredBox = PlatformElement.extend({
-
-        initialize: function() {
-        }
-
-    });
-
-    return ColoredBox;
-})();
-
-			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
-				var _ElementDefinition = PlatformElement.extend({});
-			}
-
-			var _Element = _ElementDefinition.extend({
-				initialize: function() {
-					// we still want to call the initialize function defined by the developer
-					// however, we don't want to call it until placeholders have been replaced
-					this.placeholderInterval = setInterval(function() {
-						// so use setInterval to check for placeholders.
-						if (this.$('.platform-element-child-placeholder').length == 0) {
-							clearInterval(this.placeholderInterval);
-							this.constructor.__super__.initialize.apply(this);
-						}
-					}.bind(this), 100);
-				}
-			});
-
-			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#f4f7f8","opacity":80,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
-			_Element.prototype.settings.page_element_id = "776136269276296365";
-
-			_Element.prototype.element_id = "bf0a5bb5-37bd-473e-94a5-32e81a4f6629";
-			_Element.prototype.user_id = "119447933";
-			_Element.prototype.site_id = "184181696246035762";
-			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-848857247979793891-1.0.1/assets/";
-			new _Element({
-				el: '#element-bf0a5bb5-37bd-473e-94a5-32e81a4f6629'
-			});
-		});
-	});
-
-}
-
-if (typeof document.documentElement.appReady == 'undefined') {
-	document.documentElement.appReady = 0;
-}
-
-if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
-	setupElement776136269276296365();
-} else if (document.createEvent && document.addEventListener) {
-	document.addEventListener('appReady', setupElement776136269276296365, false);
-} else {
-	document.documentElement.attachEvent('onpropertychange', function(event){
-		if (event.propertyName == 'appReady') {
-			setupElement776136269276296365();
-		}
-	});
-}
-
-</script></div></div>
-			</div>
-		</div>
-      </div>
-
-	</div>
-</div>
-
-</div>
-
-    </div>
-
-    <!-- end footer-wrap -->
-  </div><!-- /.wrapper -->
-
-  <div id="navMobile" class="nav mobile-nav">
-    <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
-    <ul class="wsite-menu-default">
-    		<li id="pg426086549445355888" class="wsite-menu-item-wrap">
-    			<a
-    						href="index.html"
-    				class="wsite-menu-item"
-    				>
-    				Home
-    			</a>
-    			
-    		</li>
-    		<li id="pg287887744426550490" class="wsite-menu-item-wrap">
-    			<a
-    						href="team-members.html"
-    				class="wsite-menu-item"
-    				>
-    				Team Members
-    			</a>
-    			
-    		</li>
-    		<li id="pg123352630339028948" class="wsite-menu-item-wrap">
-    			<a
-    						href="projects.html"
-    				class="wsite-menu-item"
-    				>
-    				Projects
-    			</a>
-    			
-    		</li>
-    		<li id="pg984358078248238006" class="wsite-menu-item-wrap">
-    			<a
-    						href="contact.html"
-    				class="wsite-menu-item"
-    				>
-    				Contact
-    			</a>
-    			
-    		</li>
-    </ul>
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_1.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_1.png" alt="DLW screenshot 1" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
   </div>
 
-	<script type="text/javascript" src="files/theme/plugins.js"></script>
-  <script type="text/javascript" src="files/theme/custom.js"></script>
-    <div id="customer-accounts-app"></div>
-    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_2.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_2.png" alt="DLW screenshot 2" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
 
-		
-	</body>
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_3.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_3.png" alt="DLW screenshot 3" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_4.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_4.png" alt="DLW screenshot 4" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_5.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_5.png" alt="DLW screenshot 5" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_6.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_6.png" alt="DLW screenshot 6" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_7.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_7.png" alt="DLW screenshot 7" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_8.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_8.png" alt="DLW screenshot 8" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_9.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_9.png" alt="DLW screenshot 9" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+  <div class="grid-item-smallgallery" style="height:112px">
+   <a class="galleryentry" href = "img/dlw_10.png">
+   <div class="smallgalleryentry">
+   <img src="img/dlw_10.png" alt="DLW screenshot 10" class="smallgallery" style="height:112px">
+   <div class="smallgalleryname" style="height:112px"></div>
+   </div>
+   </a>
+  </div>
+
+</div>
+
+<table>
+<tr>
+<td>
+<p>The residents of the fantastic world of Gensokyo have woken up to find that the very fabric of existence has been distorted! Polished diamonds are growing on trees, dirt paths are now made of fancy glass, landmarks have changed positions, and most disturbingly, even people seem to be behaving differently. To find out what's happening, the defenders of Gensokyo must explore a surreal new world and maybe even learn to bend the rules of reality themselves...</p>
+<p>Analogue Reverie's first released project, Dream Logical World is a Touhou Project fan game. Styled after the official Touhou shoot-'em-up games, this adventure will have you shooting down enemies and bosses while dodging complex attacks, but with a strategic twist—in place of traditional bombs, you'll harness the fluctuating nature of existence with reality-breaking Aspect Shifts. To survive to the end of the game and rack up high scores, you'll need to master your chosen characters' Aspect Shifts and keep them active for as long as you can.</p>
+<p>Dream Logical World features five difficulty levels, detailed practice options to help you craft your strategies, and if you're interested in lore, a story in which every separate campaign weaves together with mysteries and twists along the way.</p>
+
+<div class="projectsection">
+<hr>
+<h2>Download</h2>
+<a href="https://store.steampowered.com/app/1664410/__Dream_Logical_World/" class="download">Download from Steam</a><br>
+<a href="https://analogue-reverie.itch.io/dream-logical-world" class="download">Download from itch.io</a><br>
+<a href="https://www.bulletforge.org/u/vycm/p/dong-fang-shi-zai-xiang-dream-logical-world" class="download">Download from Bulletforge</a>
+<hr>
+<h2>Omake</h2>
+<a href="th_dlw_omake.zip" class="download">Download Omake</a><br>
+<p class="small">The omake includes the game's soundtrack in MP3 format, full-size character and ending portraits, character profiles, and various extra images and music. Contains spoilers, of course.</p>
+<hr>
+<h2>Trailer</h2>
+<iframe width="560" style="max-width:100%" height="315" src="https://www.youtube.com/embed/E3mdn-i50OY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<h2>Additional Links</h2>
+<p class="links" style="margin-top:0em"><a href="https://en.touhouwiki.net/wiki/Dream_Logical_World">Dream Logical World on Touhou Wiki</a><br>
+<a href="https://www.youtube.com/playlist?list=PLqoRfzGGnNR6GVYAsoiB64j_TdOZz8VGh">YouTube soundtrack playlist</a></p>
+</div>
+
+</td>
+</tr>
+</table>
+</body>
 </html>
+
